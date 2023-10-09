@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 223, 224);
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #21618C;
+}
+
+.header a{
+    padding: 15px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.category{
+    margin-top: 5%;
+    width: 25%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+
+.category a{
+    color: black;
+    text-decoration: none;
+    font-family: 'ArchyEDT-Bold';
+    margin-top: 5%;
+}
+
+.category a:hover{
+    color: blue;
+    transition: 0.7s;
+}
+
+.category ul li{
+    padding-top: 2%;
+    list-style: none;
+}
+
+.category_name {
+    text-align: center;
+    color: black;
+    font-family: 'ArchyEDT-Bold';
+    padding-top: 5%;
+}
+
+.row img{
+    width: 200px;
+}
+
+.category_list{
+    margin-top: -11.5%;
+    margin-left: 27%;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.login_form{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.login_form input{
+    margin-top: 1%;
+    width: 30%;
+    height: 50px;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.login_form input:focus{
+    outline: none;
+}
+
+.login_form select{
+    margin-top: 1%;
+    width: 30%;
+    height: 50px;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.login_form button{
+    margin-top: 1%;
+    width: 30%;
+    height: 50px;
+    border: none;
+    background-color: #21618C;
+    color: white;
+    font-family: 'ArchyEDT-Bold';
+}
+
+
+.register_form{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.register_form input{
+    margin-top: 1%;
+    width: 30%;
+    height: 50px;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.register_form input:focus{
+    outline: none;
+}
+
+.register_form button{
+    margin-top: 1%;
+    width: 30%;
+    height: 50px;
+    border: none;
+    background-color: #21618C;
+    color: white;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.msg{
+    color: blue;
+    margin-top: 3%;
+    font-family: 'BPG Arial';
+}
+
+.success{
+    color: blue;
+    margin-top: 3%;
+    font-family: 'BPG Arial';
+}
+
+.error{
+    color: red;
+    margin-top: 3%;
+    font-family: 'BPG Arial';
+}
+
+.list_add{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.list_add input{
+    width: 40%;
+    height: 50px;
+    margin-top: 1%;
+    font-family: 'ArchyEDT-Bold';
+    
+}
+
+.list_add input:focus{
+    outline: none;
+}
+
+.list_add select{
+    width: 40%;
+    height: 50px;
+    margin-top: 1%;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.list_add textarea{
+    width: 40%;
+    height: 100px;
+    margin-top: 1%;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.list_add button{
+    width: 40%;
+    height: 50px;
+    margin-top: 1%;
+    border: none;
+    background-color: #21618C;
+    color: white;
+    font-family: 'ArchyEDT-Bold';
+}
+
+.category_list button{
+    background-color: #21618C;
+    width: 40%;
+    height: 50px;
+    color: white;
+    font-family: 'ArchyEDT-Bold';
+    border: none;
+}
